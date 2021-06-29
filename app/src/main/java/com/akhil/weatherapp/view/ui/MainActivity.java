@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity implements MainActivityContr
         //creating instance of presenter class
         this.setPresenter(new MainActivityPresenter(this));
 
-        //calling initData method of presenter class in which we added dtudent record
         getLocation = findViewById(R.id.locationTextInput);
 
         //initializing shared preferences
